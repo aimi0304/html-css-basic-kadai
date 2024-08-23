@@ -1,0 +1,72 @@
+#top {
+    width: 800px;                   /*横幅*/
+    padding-top: 20px;              /*上余白*/
+    padding-bottom: 20px;           /*下余白*/
+    margin: 0 auto;                 /*中央配置*/
+    background-color: #dcc9f4;    /*背景色*/
+    text-align: center;             /*中央寄せ*/
+}
+#top .top-child{
+    width: 20%;
+    background-color: #ffd9df;
+    display: inline;
+}
+#middle {
+    width: 800px;                   /*横幅*/
+    height: 800px;                  /*高さ*/
+    padding-top: 20px;              /*上余白*/
+    padding-bottom: 20px;           /*下余白*/
+    margin: 20px auto;              /*中央配置*/
+    background-color: #ffd9df;    /*背景色*/
+    position: relative;             /*相対位置*/
+}
+#middle-child01{
+    width: 200px;                   /*横幅*/
+    height: 200px;                  /*高さ*/
+    background-color: #87ceed;    /*背景色*/
+    position: absolute;             /*絶対位置*/
+    top: 100px;                     /*配置(上)*/
+    left: 100px;                    /*配置(左)*/
+}
+#middle-child02{
+    width: 200px;                   /*横幅*/
+    height: 200px;                  /*高さ*/
+    background-color: #87ceed;    /*背景色*/
+    position: absolute;             /*絶対位置*/
+    top: 300px;                     /*配置(上)*/
+    left: 300px;                    /*配置(左)*/
+}
+#middle-child03{
+    width: 200px;                   /*横幅*/
+    height: 200px;                  /*高さ*/
+    background-color: #87ceed;    /*背景色*/
+    position: absolute;             /*絶対位置*/
+    top: 500px;                     /*配置(上)*/
+    left: 500px;                    /*配置(左)*/
+}
+#bottom {
+    width: 800px;                   /*横幅*/
+    height: 300px;                  /*高さ*/
+    margin: 0 auto;                 /*中央配置*/
+    background-color: #87ceed;    /*背景色*/
+    position: relative;             /*相対位置*/
+}
+#bottom-child01{
+    width: 400px;                   /*横幅*/
+    height: 100px;                  /*高さ*/
+    background-color: #e5dcf0;    /*背景色*/
+}
+#bottom-child02{
+    width: 400px;                   /*横幅*/
+    height: 100px;                  /*高さ*/
+    background-color: #e5dcf0;    /*背景色*/
+    position: relative;             /*相対位置*/
+    left: 200px;                    /*配置(左)*/
+}
+#bottom-child03{
+    width: 400px;                   /*横幅*/
+    height: 100px;                  /*高さ*/
+    background-color: #e5dcf0;    /*背景色*/
+    position: relative;             /*相対位置*/
+    left: 400px;                    /*配置(左)*/
+}
