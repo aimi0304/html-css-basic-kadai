@@ -1,7 +1,7 @@
 #top {
     width: 800px;                   /*横幅*/
-    padding-top: 20px;              /*上余白*/
-    padding-bottom: 20px;           /*下余白*/
+    margin-top: 20px;              /*上余白*/
+    margin-bottom: 20px;           /*下余白*/
     margin: 0 auto;                 /*中央配置*/
     background-color: #dcc9f4;    /*背景色*/
     text-align: center;             /*中央寄せ*/
@@ -9,13 +9,13 @@
 #top .top-child{
     width: 20%;
     background-color: #ffd9df;
-    display: inline;
+    display: inline-block;
 }
 #middle {
     width: 800px;                   /*横幅*/
     height: 800px;                  /*高さ*/
-    padding-top: 20px;              /*上余白*/
-    padding-bottom: 20px;           /*下余白*/
+    margin-top: 20px;              /*上余白*/
+    margin-bottom: 20px;           /*下余白*/
     margin: 20px auto;              /*中央配置*/
     background-color: #ffd9df;    /*背景色*/
     position: relative;             /*相対位置*/
